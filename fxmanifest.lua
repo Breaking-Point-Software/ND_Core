@@ -21,11 +21,13 @@ client_scripts {
 server_scripts {
     "@oxmysql/lib/MySQL.lua",
     "config_server.lua",
+    "config_heartbeat.lua",
     "server/main.lua",
     "server/functions.lua",
     "server/events.lua",
     "server/commands.lua",
-    "shared/import.lua"
+    "shared/import.lua",
+    "server/heartbeat.lua"
 }
 
 exports {
